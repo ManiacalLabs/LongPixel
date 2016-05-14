@@ -1,0 +1,514 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:DanCustom_Components
+LIBS:ML_Kicad
+LIBS:open-project
+LIBS:PCA9685-TSSOP
+LIBS:SparkFun
+LIBS:w_connectors
+LIBS:AnalogDriver-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L WS2801 U1
+U 1 1 55590B1F
+P 2450 3250
+F 0 "U1" H 2150 3770 50  0000 L BNN
+F 1 "WS2801" H 2150 2565 50  0000 L BNN
+F 2 "SMD_Packages:SOIC-14_N" H 2450 3400 50  0001 C CNN
+F 3 "" H 2450 3250 60  0000 C CNN
+	1    2450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7805 U2
+U 1 1 55590D1A
+P 1750 1850
+F 0 "U2" H 1900 1654 60  0000 C CNN
+F 1 "L78M05CDT-TR" H 1750 2050 60  0000 C CNN
+F 2 "ML_Kicad_Footprints:ML_DPAK-2" H 1750 1850 60  0001 C CNN
+F 3 "" H 1750 1850 60  0000 C CNN
+	1    1750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDSD Q1
+U 1 1 55590E73
+P 4200 1850
+F 0 "Q1" H 4500 1900 50  0000 R CNN
+F 1 "Q_NMOS_GDSD FDT457N SOT-223" H 5700 1800 50  0000 R CNN
+F 2 "SMD_Packages:SOT-223" H 4400 1950 29  0001 C CNN
+F 3 "" H 4200 1850 60  0000 C CNN
+	1    4200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDSD Q2
+U 1 1 55590F45
+P 4200 2700
+F 0 "Q2" H 4500 2750 50  0000 R CNN
+F 1 "Q_NMOS_GDSD FDT457N SOT-223" H 5700 2650 50  0000 R CNN
+F 2 "SMD_Packages:SOT-223" H 4400 2800 29  0001 C CNN
+F 3 "" H 4200 2700 60  0000 C CNN
+	1    4200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDSD Q3
+U 1 1 55590F6F
+P 4200 3550
+F 0 "Q3" H 4500 3600 50  0000 R CNN
+F 1 "Q_NMOS_GDSD FDT457N SOT-223" H 5700 3500 50  0000 R CNN
+F 2 "SMD_Packages:SOT-223" H 4400 3650 29  0001 C CNN
+F 3 "" H 4200 3550 60  0000 C CNN
+	1    4200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES R1
+U 1 1 5559100A
+P 3700 1850
+F 0 "R1" H 3600 1900 50  0000 L BNN
+F 1 "10K" H 3750 1900 50  0000 L BNN
+F 2 "Resistors_SMD:R_0805" H 3850 1650 50  0001 C CNN
+F 3 "" H 3700 1850 60  0000 C CNN
+	1    3700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES R2
+U 1 1 555914C6
+P 3700 2700
+F 0 "R2" H 3600 2750 50  0000 L BNN
+F 1 "10K" H 3750 2750 50  0000 L BNN
+F 2 "Resistors_SMD:R_0805" H 3850 2500 50  0001 C CNN
+F 3 "" H 3700 2700 60  0000 C CNN
+	1    3700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES R3
+U 1 1 55591518
+P 3700 3550
+F 0 "R3" H 3600 3600 50  0000 L BNN
+F 1 "10K" H 3750 3600 50  0000 L BNN
+F 2 "Resistors_SMD:R_0805" H 3850 3350 50  0001 C CNN
+F 3 "" H 3700 3550 60  0000 C CNN
+	1    3700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L M02PTH JP1
+U 1 1 5559186C
+P 2200 950
+F 0 "JP1" H 2100 1180 50  0000 L BNN
+F 1 "12V_IN" H 2100 750 50  0000 L BNN
+F 2 "ML_Kicad_Footprints:ML_SparkFun-SCREWTERMINAL-5MM-2" H 2200 1100 50  0001 C CNN
+F 3 "" H 2200 950 60  0000 C CNN
+	1    2200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P1
+U 1 1 55591930
+P 3950 900
+F 0 "P1" H 3950 1100 50  0000 C CNN
+F 1 "GNDCLKDATA_IN" V 4050 900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 3950 900 60  0001 C CNN
+F 3 "" H 3950 900 60  0000 C CNN
+	1    3950 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P2
+U 1 1 55591A27
+P 5600 900
+F 0 "P2" H 5600 1100 50  0000 C CNN
+F 1 "GNDCLKDATA_OUT" V 5700 900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 5600 900 60  0001 C CNN
+F 3 "" H 5600 900 60  0000 C CNN
+	1    5600 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR01
+U 1 1 5564EC96
+P 2650 800
+F 0 "#PWR01" H 2650 650 50  0001 C CNN
+F 1 "+12V" H 2650 940 50  0000 C CNN
+F 2 "" H 2650 800 60  0000 C CNN
+F 3 "" H 2650 800 60  0000 C CNN
+	1    2650 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5564ECB7
+P 2650 1000
+F 0 "#PWR02" H 2650 750 50  0001 C CNN
+F 1 "GND" H 2650 850 50  0000 C CNN
+F 2 "" H 2650 1000 60  0000 C CNN
+F 3 "" H 2650 1000 60  0000 C CNN
+	1    2650 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR03
+U 1 1 5564ECFF
+P 2300 1700
+F 0 "#PWR03" H 2300 1550 50  0001 C CNN
+F 1 "+5V" H 2300 1840 50  0000 C CNN
+F 2 "" H 2300 1700 60  0000 C CNN
+F 3 "" H 2300 1700 60  0000 C CNN
+	1    2300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P3
+U 1 1 5564FBB3
+P 6550 2750
+F 0 "P3" H 6550 3000 50  0000 C CNN
+F 1 "LED_STRIP" H 6700 2500 50  0000 C CNN
+F 2 "ab2_terminal_block:AB2_TB_04_RA_5.08MM_L-BLU" H 6550 2750 60  0001 C CNN
+F 3 "" H 6550 2750 60  0000 C CNN
+	1    6550 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 1850 0    60   Input ~ 0
+5V
+Text GLabel 3400 2700 0    60   Input ~ 0
+5V
+Text GLabel 3400 3550 0    60   Input ~ 0
+5V
+Text GLabel 1850 2250 2    60   Output ~ 0
+GND
+Text GLabel 2950 1800 2    60   Input ~ 0
+5V
+Text GLabel 1100 1650 0    60   Input ~ 0
+12V
+Text GLabel 4500 2050 2    60   Output ~ 0
+GND
+Text GLabel 4500 2900 2    60   Output ~ 0
+GND
+Text GLabel 4500 3750 2    60   Output ~ 0
+GND
+Text GLabel 1900 2850 0    60   Input ~ 0
+5V
+Text GLabel 2900 3850 2    60   Output ~ 0
+GND
+Connection ~ 1750 2100
+Wire Wire Line
+	1750 2100 1750 2250
+Wire Wire Line
+	4300 1650 6050 1650
+Connection ~ 4400 1650
+Wire Wire Line
+	5800 2800 5800 2500
+Wire Wire Line
+	5800 2500 4300 2500
+Connection ~ 4400 2500
+Wire Wire Line
+	5900 2900 5900 3350
+Wire Wire Line
+	5900 3350 4300 3350
+Connection ~ 4400 3350
+Wire Wire Line
+	4000 2000 4000 1850
+Wire Wire Line
+	3400 1850 3500 1850
+Wire Wire Line
+	3400 2700 3500 2700
+Wire Wire Line
+	3400 3550 3500 3550
+Wire Wire Line
+	4000 1850 3900 1850
+Wire Wire Line
+	4000 3550 3900 3550
+Wire Wire Line
+	3900 2700 4000 2700
+Wire Wire Line
+	4000 2700 4000 2950
+Wire Wire Line
+	4000 3700 4000 3550
+Wire Wire Line
+	2850 2850 3150 2850
+Wire Wire Line
+	4000 2950 2850 2950
+Wire Wire Line
+	2500 850  2650 850 
+Wire Wire Line
+	2650 850  2650 800 
+Wire Wire Line
+	2500 950  2650 950 
+Wire Wire Line
+	2650 950  2650 1000
+Wire Wire Line
+	1100 1650 1200 1650
+Wire Wire Line
+	1750 2250 1850 2250
+Wire Wire Line
+	1900 2850 2050 2850
+Wire Wire Line
+	2850 3850 2900 3850
+Text GLabel 2000 3850 0    60   Output ~ 0
+GND
+Wire Wire Line
+	2050 3450 2050 3850
+Wire Wire Line
+	2050 3850 2000 3850
+Connection ~ 2050 3750
+Text GLabel 3650 900  0    51   Input ~ 0
+CKI
+Text GLabel 3650 1000 0    51   Input ~ 0
+SDI
+Text GLabel 3650 800  0    51   Input ~ 0
+GND
+Text GLabel 4750 900  0    51   Output ~ 0
+CKO
+Text GLabel 4750 1000 0    51   Output ~ 0
+SDO
+Text GLabel 4750 800  0    51   Output ~ 0
+GND
+Text GLabel 1900 3150 0    51   Input ~ 0
+CKI
+Text GLabel 1900 3250 0    51   Input ~ 0
+SDI
+Wire Wire Line
+	1900 3150 2050 3150
+Wire Wire Line
+	1900 3250 2050 3250
+Text GLabel 2900 3250 2    51   Output ~ 0
+CKO
+Text GLabel 2900 3350 2    51   Output ~ 0
+SDO
+Wire Wire Line
+	2850 3250 2900 3250
+Wire Wire Line
+	2850 3350 2900 3350
+Wire Wire Line
+	4000 3700 3150 3700
+Wire Wire Line
+	3150 3700 3150 3050
+Wire Wire Line
+	3150 3050 2850 3050
+Wire Wire Line
+	4000 2000 3150 2000
+Wire Wire Line
+	3150 2000 3150 2850
+$Comp
+L C C3
+U 1 1 5569E907
+P 1350 3350
+F 0 "C3" H 1375 3450 50  0000 L CNN
+F 1 "0.1uF" H 1375 3250 50  0000 L CNN
+F 2 "ML_Kicad_Footprints:ML_SparkFun-1206" H 1388 3200 30  0001 C CNN
+F 3 "" H 1350 3350 60  0000 C CNN
+	1    1350 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 3100 0    60   Input ~ 0
+5V
+Text GLabel 1400 3600 2    60   Output ~ 0
+GND
+Wire Wire Line
+	1300 3100 1350 3100
+Wire Wire Line
+	1350 3100 1350 3200
+Wire Wire Line
+	1350 3500 1350 3600
+Wire Wire Line
+	1350 3600 1400 3600
+Text GLabel 2750 800  2    60   Input ~ 0
+12V
+Wire Wire Line
+	2650 800  2750 800 
+Text GLabel 2750 1000 2    60   Output ~ 0
+GND
+Wire Wire Line
+	2650 1000 2750 1000
+Wire Wire Line
+	3650 800  3750 800 
+Wire Wire Line
+	3650 900  3750 900 
+Wire Wire Line
+	3650 1000 3750 1000
+Wire Wire Line
+	4300 2900 4500 2900
+Wire Wire Line
+	2850 3550 2850 3850
+Connection ~ 2850 3650
+Connection ~ 2850 3750
+Wire Wire Line
+	4300 3750 4500 3750
+Wire Wire Line
+	4300 2050 4500 2050
+$Comp
+L CAP0805 C2
+U 1 1 556A40EF
+P 2300 2000
+F 0 "C2" H 2350 2150 50  0000 L BNN
+F 1 "0.1uF" H 2360 1915 50  0000 L BNN
+F 2 "ML_Kicad_Footprints:ML_SparkFun-1206" H 2650 1850 50  0001 C CNN
+F 3 "" H 2300 2000 60  0000 C CNN
+	1    2300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP0805 C1
+U 1 1 556A4134
+P 1200 2000
+F 0 "C1" H 1250 2150 50  0000 L BNN
+F 1 "0.33uF" H 1260 1915 50  0000 L BNN
+F 2 "ML_Kicad_Footprints:ML_SparkFun-1206" H 1550 1850 50  0001 C CNN
+F 3 "" H 1200 2000 60  0000 C CNN
+	1    1200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1650 1200 1800
+Wire Wire Line
+	1200 1800 1350 1800
+Wire Wire Line
+	1200 2100 2300 2100
+Text GLabel 6400 2300 2    60   Input ~ 0
+12V
+Wire Wire Line
+	6400 2300 6350 2300
+Wire Wire Line
+	6350 2300 6350 2600
+Wire Wire Line
+	5900 2900 6200 2900
+Wire Wire Line
+	6050 1650 6050 3000
+Wire Wire Line
+	6050 3000 6350 3000
+Wire Wire Line
+	6350 3000 6350 2900
+$Comp
+L FUSE F1
+U 1 1 55B7F735
+P 2650 1800
+F 0 "F1" H 2750 1850 50  0000 C CNN
+F 1 "500mA" H 2900 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 2650 1800 60  0001 C CNN
+F 3 "" H 2650 1800 60  0000 C CNN
+	1    2650 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1800 2400 1800
+Connection ~ 2300 1800
+Wire Wire Line
+	2300 1800 2300 1700
+Wire Wire Line
+	2900 1800 2950 1800
+$Comp
+L CP C4
+U 1 1 55E77950
+P 1400 950
+F 0 "C4" H 1425 1050 50  0000 L CNN
+F 1 "CP" H 1425 850 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_6.3x5.3" H 1438 800 30  0001 C CNN
+F 3 "" H 1400 950 60  0000 C CNN
+	1    1400 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 750  0    60   Input ~ 0
+12V
+Text GLabel 1450 1150 2    60   Output ~ 0
+GND
+Wire Wire Line
+	1400 1100 1400 1150
+Wire Wire Line
+	1400 1150 1450 1150
+Wire Wire Line
+	1350 750  1400 750 
+Wire Wire Line
+	1400 750  1400 800 
+Wire Wire Line
+	6200 2900 6200 2700
+Wire Wire Line
+	6200 2700 6350 2700
+Wire Wire Line
+	5800 2800 6350 2800
+$Comp
+L RESISTOR0805-RES R4
+U 1 1 56A69D2F
+P 5100 900
+F 0 "R4" H 5000 950 50  0000 L BNN
+F 1 "50" H 5150 950 50  0000 L BNN
+F 2 "Resistors_SMD:R_0805" H 5250 700 50  0001 C CNN
+F 3 "" H 5100 900 60  0000 C CNN
+	1    5100 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0805-RES R5
+U 1 1 56A69DCF
+P 5100 1000
+F 0 "R5" H 5000 900 50  0000 L BNN
+F 1 "50" H 5150 900 50  0000 L BNN
+F 2 "Resistors_SMD:R_0805" H 5250 800 50  0001 C CNN
+F 3 "" H 5100 1000 60  0000 C CNN
+	1    5100 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 800  4900 800 
+Wire Wire Line
+	4900 800  4900 700 
+Wire Wire Line
+	4900 700  5350 700 
+Wire Wire Line
+	5350 700  5350 800 
+Wire Wire Line
+	5350 800  5400 800 
+Wire Wire Line
+	4750 900  4900 900 
+Wire Wire Line
+	4750 1000 4900 1000
+Wire Wire Line
+	5300 900  5400 900 
+Wire Wire Line
+	5300 1000 5400 1000
+$EndSCHEMATC

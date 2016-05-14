@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-may-01 BZR unknown)-product   date = 1/25/2016 5:00:56 PM
+
+BeginCmp
+TimeStamp = /556A4134;
+Reference = C1;
+ValeurCmp = 0.33uF;
+IdModule  = ML_Kicad_Footprints:ML_SparkFun-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /556A40EF;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = ML_Kicad_Footprints:ML_SparkFun-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569E907;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = ML_Kicad_Footprints:ML_SparkFun-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E77950;
+Reference = C4;
+ValeurCmp = CP;
+IdModule  = Capacitors_SMD:c_elec_6.3x5.3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B7F735;
+Reference = F1;
+ValeurCmp = 500mA;
+IdModule  = ML_Kicad_Footprints:ML_SparkFun-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5559186C;
+Reference = JP1;
+ValeurCmp = 12V_IN;
+IdModule  = ML_Kicad_Footprints:ML_SparkFun-SCREWTERMINAL-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55591930;
+Reference = P1;
+ValeurCmp = GNDCLKDATA_IN;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /55591A27;
+Reference = P2;
+ValeurCmp = GNDCLKDATA_OUT;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564FBB3;
+Reference = P3;
+ValeurCmp = LED_STRIP;
+IdModule  = ab2_terminal_block:AB2_TB_04_RA_5.08MM_L-BLU;
+EndCmp
+
+BeginCmp
+TimeStamp = /55590E73;
+Reference = Q1;
+ValeurCmp = Q_NMOS_GDSD FDT457N SOT-223;
+IdModule  = TO_SOT_Packages_SMD:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = /55590F45;
+Reference = Q2;
+ValeurCmp = Q_NMOS_GDSD FDT457N SOT-223;
+IdModule  = TO_SOT_Packages_SMD:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = /55590F6F;
+Reference = Q3;
+ValeurCmp = Q_NMOS_GDSD FDT457N SOT-223;
+IdModule  = TO_SOT_Packages_SMD:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = /5559100A;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /555914C6;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55591518;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /56A69D2F;
+Reference = R4;
+ValeurCmp = 50;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /56A69DCF;
+Reference = R5;
+ValeurCmp = 50;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55590B1F;
+Reference = U1;
+ValeurCmp = WS2801;
+IdModule  = SMD_Packages:SOIC-14_N;
+EndCmp
+
+BeginCmp
+TimeStamp = /55590D1A;
+Reference = U2;
+ValeurCmp = L78M05CDT-TR;
+IdModule  = ML_Kicad_Footprints:ML_DPAK-2;
+EndCmp
+
+EndListe
